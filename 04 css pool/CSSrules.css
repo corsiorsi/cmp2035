@@ -1,0 +1,14 @@
+body{ 
+font-family: Helvetica;
+font-size: 14px;
+background-color: rgb(219,216,189);
+font-weight: 200;}
+h1, h2, h3{font-family: Garamond;
+ color: white;
+background-color: DarkCyan; 
+opacity:0.80;
+text-align: center;}
+h1{text-transform:uppercase;}
+p{line-height:1.25em;
+	font-weight: normal;}
+a:hover{text-decoration:underline;}
