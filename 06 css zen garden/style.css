@@ -16,7 +16,8 @@ html {
 body { 
 	font: 75% georgia, sans-serif;
 	line-height: 1.88889; 
-	background: rgb(147,134,64) url(b3ed8fdf.jpg) no-repeat bottom right; 
+/*	background: rgb(147,134,64) url(b3ed8fdf.jpg) no-repeat bottom right; */
+    object-fit: cover ;
 	margin: 0; 
 	padding: 0;
 	}
@@ -52,7 +53,8 @@ abbr {
 
 /* specific divs */
 .page-wrapper { 
-	background: url(b3ed8fdf.jpg) no-repeat top left; 
+	background: url(b3ed8fdf.jpg) no-repeat top left;
+    background-attachment: fixed;
 	padding: 0 175px 0 110px;  
 	margin: 0; 
 	position: relative;
