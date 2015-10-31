@@ -14,20 +14,24 @@ html {
 	padding: 0;
 	}
 body { 
-	font: 75% georgia, sans-serif;
+	font-family: 'Oswald', sans-serif;
 	line-height: 1.88889; 
 /*	background: rgb(147,134,64) url(b3ed8fdf.jpg) no-repeat bottom right; */
     object-fit: cover ;
 	margin: 0; 
 	padding: 0;
 	}
+
 p { 
+	font-family: 'Oswald', sans-serif;
 	margin-top: 0; 
 	text-align: justify;
 	color: rgb(241,225,181)
 	}
+
 h3 { 
-	font: italic normal 1.4em georgia, sans-serif;
+	font-family: 'Pacifico', cursive;
+	font-weight:lighter;
 	letter-spacing: 1px; 
 	margin-bottom: 0; 
 	color: rgb(184,134,27);
@@ -66,28 +70,28 @@ abbr {
 	}
 
 header h1 { 
-	
+	font-family: 'Pacifico', sans-serif;
 	margin-top: 10px;
 	display: block;
 	width: 219px;
 	height: 87px;
 	float: left;
-
-	text-indent: 100%;
+ 	color: rgb(184,134,27);
 	white-space: nowrap;
-	overflow: hidden;
+	font-weight:lighter;
+
 	}
 header h2 { 
-	 
+	font-family: 'Pacifico', sans-serif; 
+	color: rgb(184,134,27);
 	margin-top: 58px; 
 	margin-bottom: 40px; 
 	width: 200px; 
 	height: 18px; 
-	float: right;
-
-	text-indent: 100%;
+	float: left;
+	font-weight: lighter;
 	white-space: nowrap;
-	overflow: hidden;
+	
 	}
 header {
 	padding-top: 20px;
@@ -101,7 +105,8 @@ header {
 	float: left;
 	}
 .summary p {
-	font: italic 1.1em/2.2 georgia; 
+	font-family: 'Oswald', sans-serif;
+	font-size:14px;
 	text-align: center;
 	}
 
@@ -128,7 +133,9 @@ footer a:link, footer a:visited {
 	right: 0;
 	}
 .sidebar .wrapper { 
-	font: 10px verdana, sans-serif; 
+	font-family: 'Oswald', sans-serif;
+	font-weight:.5em;
+	font-size: 10px;
 	background: transparent url(paper-bg.jpg) top left repeat-y; 
 	padding: 10px; 
 	margin-top: 150px; 
