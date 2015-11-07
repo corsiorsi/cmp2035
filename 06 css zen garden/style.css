@@ -71,11 +71,11 @@ abbr {
 
 header h1 { 
 	font-family: 'Pacifico', sans-serif;
-	margin-top: 10px;
-	display: block;
+	margin-top: 20px;
+	margin-left:150px;
+	margin-bottom:0px;
 	width: 219px;
-	height: 87px;
-	float: left;
+	height: 20px;
  	color: rgb(184,134,27);
 	white-space: nowrap;
 	font-weight:lighter;
@@ -84,24 +84,24 @@ header h1 {
 header h2 { 
 	font-family: 'Pacifico', sans-serif; 
 	color: rgb(184,134,27);
-	margin-top: 58px; 
-	margin-bottom: 40px; 
+	margin-left: 160px;
 	width: 200px; 
 	height: 18px; 
-	float: left;
 	font-weight: lighter;
-	white-space: nowrap;
-	
 	}
-header {
+
+header { 
+	background-image: url(bigsign.gif) ;
+	background-repeat: no-repeat;
 	padding-top: 20px;
-	height: 87px;
-}
+	height: 300px;
+	margin-left: 200px
+	}
 
 .summary {
-	clear: both; 
-	margin: 20px 20px 20px 10px; 
-	width: 160px; 
+	background-image: url(sign-post.gif);
+	margin: 0px 20px 20px 10px; 
+	width: 300px; 
 	float: left;
 	}
 .summary p {
@@ -111,8 +111,12 @@ header {
 	}
 
 .preamble {
+	background-image: url(largewoodensign.gif);
 	clear: right; 
-	padding: 0px 10px 0 10px;
+	padding: 50px 10px 0 10px;
+	margin-left: 300px;
+	margin-right: 150px;
+	font-size: 15px;
 	}
 .supporting {	
 	padding-left: 10px; 
