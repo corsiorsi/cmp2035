@@ -13,6 +13,7 @@ html {
 	margin: 0;
 	padding: 0;
 	}
+
 body { 
 	font-family: 'Oswald', sans-serif;
 	line-height: 1.88889; 
@@ -38,6 +39,7 @@ h3 {
 	color: rgb(184,134,27);
 	text-align: center;
 	}
+
 a:link { 
 	font-weight: bold; 
 	text-decoration: none; 
@@ -59,9 +61,6 @@ abbr {
 
 /* specific divs */
 .page-wrapper { 
-	/*background: url(b3ed8fdf.jpg) no-repeat top left;
-    background-attachment: fixed;*/
-
 	padding: 0 175px 0 110px;  
 	margin: 0; 
 	position: relative;
@@ -102,15 +101,12 @@ header {
 	}
 
 .summary {
-	background-image: url(woodmiddle2.svg);
-	background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-position: left top;
+;
     background-size: cover; 
-	/*background-image: url(signpost.gif);*/
+	background-image: url(largewoodensign.gif);
 	margin: 0px 20px 20px 10px; 
 	width: 300px; 
-	/*float: left;*/
+	float: left;
 	}
 .summary p {
 
@@ -120,18 +116,19 @@ header {
 	}
 
 .preamble {
-	/*background-image: url(largewoodensign.gif);*/
-	background-image: url(woodmiddle2.svg);
+	background-image: url(largewoodensign.gif);
+	
 	background-color: transparent;
 	background-repeat: repeat-y;
-	/*background-attachment: scroll;*/
+	
 	background-position: center top;
 	background-size: cover;
 	clear: right; 
 	padding: 50px 10px 0 10px;
 	margin-left: 300px;
 	margin-right: 150px;
-	font-size: 15px;
+	font-size: 13px;
+	height:500px;
 	}
 
 .supporting {	
@@ -213,90 +210,60 @@ footer a:link, footer a:visited {
 	}
 
 .explanation {
-	background-image: url(woodmiddle.svg);
-	/*background-color: transparent;*/
-	background-clip: border-box;
-	background-origin: padding-box;
-	background-attachment: scroll;
-	background-position: center top;
-    background-size: cover;
-    background-repeat: repeat-y top left;
-/*
-	height:500px;*/
+	background-image: url(largewoodensign.gif);
+	background-repeat: no-repeat; 
+	height:800px;
 }
 
-.explanation p{background-image: url(woodmiddle.svg);
-	/*background-color: transparent;*/
-	background-clip: border-box;
-	background-origin: padding-box;
-	background-attachment: scroll;
-	background-position: center top;
-    background-size: cover;
-    background-repeat: repeat-y top left;
+.explanation p{
+font-size: 13px;
 	margin-top: 50px;
-	margin-right:30px;
+	margin-right:400px;
 	margin-left: 30px;
 }
+.participation{
+	background-image: url(largewoodensign.gif);
+	height:600px;
+}
+ .participation p{
+ 	margin-left: 15px;
+ 	margin-right: 50px;
+ 	margin-top: 40px;
+ 	width:300; 
+ 	float: right;
+ 	font-size: 14px;
+ }
 
-.summary::before,
-.preamble::before,
-.design-selection::before,
-.design-archives::before,
-.zen-resources::before,
-.explanation::before,
-.participation::before,
-.benefits::before,
-.requirements > *::before,
-footer::before {
-    top: -600px;
-    height: 600px;
-    background: url(post.svg) no-repeat center bottom, url(woodmiddle2.svg) no-repeat center ;
-    background-size: cover;}
+.benefits{
+	background-image: url(largewoodensign.gif);
+background-repeat: no-repeat;
+height: 700px;}
 
-
-
-.summary::after,
-.preamble::after,
-.design-selection::after,
-.design-archives::after,
-.zen-resources::after,
-.explanation::after,
-.participation::after,
-.benefits::after,
-.requirements > *::after,
-footer::after {
-    bottom: -33px;
-    height: 33px;
-    background: transparent url(woodmiddle2.svg) no-repeat center bottom;
-  
-    background-size: cover;
+.benefits h3{margin-left: 10px;
+margin-right:400px;
+margin-top: 100px;
+height:60px;
 }
 
+.benefits p{
+margin-left: 10px;
+margin-right:400px;
+margin-top: 80px;}
 
-.summary,
-.preamble,
-.design-selection,
-.design-archives,
-.zen-resources,
-.explanation,
-.participation,
-.benefits,
-.requirements > *,
-footer {
-    position: relative;
-    float: left;
-    margin: 45px 10px;
-    padding: 0 50px 15px 50px;
-    width: 260px;
-    background: url(woodmiddle2.svg) repeat-y center top;
-   background-size: cover;
-}
-	
-/*.extra1 {
+.requirements{background-image: url(largewoodensign.gif);
+background-repeat: repeat-y;}
+.requirements p{margin-right: 400px;
+margin-left:10px;}
+
+/*h3{
+	background-image: url(bigsign.gif) no-repeat;
+}*/	
+
+.extra1 {
 	background: transparent url(cr2.gif) top left no-repeat; 
 	position: absolute; 
 	top: 40px; 
 	right: 0; 
 	width: 148px; 
 	height: 110px;
-	}*/
+	}
